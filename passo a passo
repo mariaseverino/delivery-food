@@ -1,0 +1,13 @@
+9091122036086
+
+npm init -y
+npm install -g typescript
+tsc --init
+npm install --save-dev typescript
+npm install --save-dev @types/node
+tsc ./
+npm install --save-dev express
+npm i rimraf
+npm i -D jest @types/jest ts-jest
+
+npm i -g yarn

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        /* Visit https://aka.ms/tsconfig to read more about this file */
+
+        "target": "ES6",
+        "module": "commonjs",
+        "rootDir": "src",
+        // "typeRoots": ["./src/@types", "./node_modules/@types"],
+        "outDir": "./dist",
+        "strict": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
